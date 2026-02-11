@@ -13,7 +13,7 @@
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/ivi374forivi/tab-bookmark-manager.git
+git clone https://github.com/organvm-iii-ergon/tab-bookmark-manager.git
 cd tab-bookmark-manager
 ```
 
@@ -50,7 +50,7 @@ docker-compose logs -f
 
 3. Clone repository and configure:
 ```bash
-git clone https://github.com/ivi374forivi/tab-bookmark-manager.git
+git clone https://github.com/organvm-iii-ergon/tab-bookmark-manager.git
 cd tab-bookmark-manager
 ```
 
