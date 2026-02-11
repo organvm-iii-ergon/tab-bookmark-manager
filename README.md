@@ -6,6 +6,14 @@
 
 # Tab & Bookmark Manager
 
+[![CI](https://github.com/organvm-iii-ergon/tab-bookmark-manager/actions/workflows/ci.yml/badge.svg)](https://github.com/organvm-iii-ergon/tab-bookmark-manager/actions/workflows/ci.yml)
+[![Coverage](https://img.shields.io/badge/coverage-pending-lightgrey)](https://github.com/organvm-iii-ergon/tab-bookmark-manager)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/organvm-iii-ergon/tab-bookmark-manager/blob/main/LICENSE)
+[![Organ III](https://img.shields.io/badge/Organ-III%20Ergon-F59E0B)](https://github.com/organvm-iii-ergon)
+[![Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/organvm-iii-ergon/tab-bookmark-manager)
+[![TypeScript](https://img.shields.io/badge/lang-TypeScript-informational)](https://github.com/organvm-iii-ergon/tab-bookmark-manager)
+
+
 **An intelligent tab and bookmark management system with AI-powered content analysis, semantic search, smart suggestions, and automated archival.**
 
 Tab & Bookmark Manager is a full-stack productivity tool that transforms how users interact with their browser tabs and bookmarks. Rather than treating tabs and bookmarks as flat, unstructured lists, this system applies machine learning to understand the *content* behind each URL: summarizing pages, classifying them into categories, detecting duplicates, identifying stale tabs, and surfacing related content through semantic similarity. The result is a self-organizing knowledge layer on top of everyday browsing behavior.
