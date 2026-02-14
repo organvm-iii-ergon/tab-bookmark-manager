@@ -1,6 +1,7 @@
 # seed.yaml — Automation Contract for organvm-iii-ergon/tab-bookmark-manager
 # Schema: seed/v1.0
 # Generated: 2026-02-12 (AUTONOMY Sprint)
+# Updated: 2026-02-14 (back-edge fix: removed ORGAN-III→ORGAN-I dependency)
 # Category: flagship_with_deps
 
 schema_version: "1.0"
@@ -10,10 +11,10 @@ repo: tab-bookmark-manager
 org: organvm-iii-ergon
 
 metadata:
-  implementation_status: PRODUCTION
+  implementation_status: ACTIVE
   tier: standard
   promotion_status: LOCAL
-  last_validated: "2026-02-11"
+  last_validated: "2026-02-14"
   generated: "2026-02-12"
   sprint: "AUTONOMY"
 
@@ -22,11 +23,6 @@ agents:
     trigger: on_push
     workflow: .github/workflows/ci-typescript.yml
     description: "Continuous integration pipeline"
-
-consumes:
-  - type: dependency
-    source: organvm-i-theoria/my-knowledge-base
-    description: Depends on organvm-i-theoria/my-knowledge-base
 
 subscriptions:
   - event: governance.updated
